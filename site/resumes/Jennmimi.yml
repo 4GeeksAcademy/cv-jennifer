@@ -1,0 +1,206 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jennifer
+    last_name: Calderon
+    
+    # Define yourself in 4-5 words
+    motto: Siempre respeto a mi prójimo
+    
+    # Focus
+    focus: Ser mejor cada dia
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Me considero una persona muy trabajadora, estable laboralmente y sobre todo
+      muy proactiva. Siempre dispuesta a poner todo el empeño en cada labor que se
+      me asigne. En mis años de experiencia laboral solo he tenido tres trabajos de 
+      los cuales voy escalando poco a poco en busqueda de superación personal y laboral.
+
+      Hoy dia mi gran sueño y reto es convertirme en una gran programadora.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://imgur.com/a/sgt4UUN
+
+    # Contact Information
+    email: jenncalder1588@gmail.com #optional
+    phone: ________ #optional
+    website: _____ #optional
+    linkedin: _____ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Jennmimi
+    
+    twitter: _____ #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Español
+        level: Native
+
+      - idiom: Ingles
+        level: B1
+
+      - idiom: ______
+        level: _____
+
+    # Interests or hobbies
+    interests:
+      - item: Ejercicio de pesas
+
+      - item: Conocer lugares recreativos
+
+      - item: Pintar
+
+# Your previous education
+education:
+    - degree: Ejecutivo(a) en ingles para servicios
+      university: Instituto Nacional de aprendizaje(INA)
+      # optional
+      university_logo: _____________
+      time: 2019
+      details: |
+        Durante este curso adquirí conocimientos básicos de inglés enfocadas
+        en el área de servicios. Mejoré mis habilidades de escritura y 
+        desarrolle habilidades básicas en compresión auditiva(listening) y 
+        expresión oral(speaking). Aunque aun estoy en proceso de aprendizaje, el
+        curso me ayudo a comunicarme de manera más efectiva en situacciones cotidianas.
+
+          - Mejoré mi redaccion en inglés para situaciones laborales cotidianas.
+          - Adquiri vocabulario básico útil en el area de servicios
+
+    - degree: Inspectora(a) de calidad
+      university: Instituto Nacional de aprendizaje(INA)
+      # optional
+      university_logo: __________
+      time: 2017
+      details: |
+        En este curso aprendí a inspeccionar productos siguiendo estándares de
+        calidad, como seguir un protocolo desde el proceso de producción hasta 
+        el proceso de empacado.
+        También adquirí conocimientos sobre liderazgo, trabajo en equipo
+        y salud ocupacional.
+
+          - Inspección visual de productos para asegurar la calidad.
+          - Aplicacón de normas de salud ocupacional en el entorno laboral.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Cad Designer
+      time: 2020 - 2024
+      company: Align Technology
+      # optional
+      company_logo: ______________
+      details: |
+        Me encargaba de recibir virtualmente tratamientos dentales, los cuales eran escaneados
+        por medio de un Itero(escáner) por doctores de diferentes países asociados 
+        con la compañía. Luego de recibir el escáner de la boca del paciente se
+        procedía a trabajar en un tratamiento para mejorar la sonrisa estéticamente y 
+        funcionalmente. Todos los tratamientos eran realizados profecionalmente con 
+        un gran conocimiento en odontología para que cada tratamiento se realizara
+        de la manera más profesional y eficiente. Cada tratamiento era minuciosamente
+        revisado para evitar problemas de manofactura y sobre todo que el paciente 
+        logré su objetico que es una sonrisa bella.
+
+          - Conocimientos sobre odontología y tratamientos de ortodoncía.
+          - Tener criterio propio cual era el mejor tratamiento para cada pasciente.
+
+    - role: Inspectora y operaria de máquinas.
+      time: 2016 - 2019
+      company: MicroTechnologies
+      # optional
+      company_logo: __________________
+      details: |
+        Estaba a cargo del manejo de maquinaria de producción de piezas para diferentes fines
+        como piezas para motores de carro, aire acondicionado entre otras. Me encargaba de llevar el control
+        de la inspección durante el proceso de fabricación siguiento paso a paso un protocolo de 
+        buenas prácticas de manofactura. También cumplia el función de inspeccionar y empacar junto 
+        con un equipo de trabajo el proceso final.
+
+          - Desempeñar varias funciones en un mismo puesto desde la producción del producto hasta el empaque de este.
+          - Trabajo en equipo y bajo presión.
+
+    - role: Cajera/Encargada de área de frescos.
+      time: 2006 - 2019
+      company: Walmart CR
+      # optional
+      company_logo: ______________________________________________________
+      details: |
+        Mi primer trabajo fue como cajera medio tiempo en Walmart, donde atendía clientes,
+        manejo de caja registradora y colaboraba en el área de ventas, rellenando góndolas
+        y se me asignaba actualizar y rótular los precios de la tienda. Con el tiempo ascendí
+        a encargada del área de frescos, donde me encargaba de hacer pedidos, llevar el control
+        del inventario y asegurar el correcto abastecimiento de los productos del departamento de frescos.
+
+          - Atención al cliente y manejo de caja registradora.
+          - Coordinación de abastecimiento y organización del área.
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
